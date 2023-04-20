@@ -24,7 +24,7 @@ export default function Form() {
     return (
         <div className="container">
             <h1>Student Details</h1>
-            <form className='box' onSubmit={(e)=>{submitForm(e)}}>
+            <form onSubmit={(e)=>{submitForm(e)}}>
                 <section className="inp_data">
                     <label htmlFor="name"></label>
                     <input onChange={handleSubmit} id="name" name="name" type="text" placeholder='Student Name' required />
